@@ -30,7 +30,7 @@ namespace EFRelationships
         //GradeID is defined here. EF will mark this as ForeignKey
         public int GradeID { get; set; }
 
-        //
+        //Navigation property
         public virtual ICollection<Project> Projects { get; set; }
     }
 
